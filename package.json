@@ -1,0 +1,19 @@
+{
+  "name": "@hellonative/studio",
+  "version": "0.1.0",
+  "description": "Inline visual + AI editor for HelloNative templates. v0-compliant, pluggable adapters, Next.js App Router.",
+  "private": true,
+  "license": "MIT",
+  "author": "HelloNative AI <info@hellonative.ai>",
+  "main": "./src/index.ts",
+  "module": "./src/index.ts",
+  "types": "./src/index.ts",
+  "peerDependencies": {
+    "next": ">=15",
+    "react": ">=19",
+    "react-dom": ">=19"
+  },
+  "dependencies": {
+    "lucide-react": "^1.8.0"
+  }
+}
